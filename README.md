@@ -67,6 +67,8 @@ The objective was to build a hands-on lab environment to practice user provision
 ### 13. My Apps Validation
 [Ver Screenshot](https://github.com/xoxpto/azure-entra-id-user-access-lab/blob/main/screenshots/13-myapps-visible-app.png)
 
+---
+
 ## Key Learnings
 - Identity lifecycle management in Microsoft Entra ID  
 - Practical use of RBAC in cloud environments  
@@ -74,49 +76,6 @@ The objective was to build a hands-on lab environment to practice user provision
 - Enterprise application integration and assignment  
 - Limitations of Entra ID Free tier  
 - Workarounds using direct user assignment  
-
----
-
-## Screenshots
-
-### 1. Entra Overview
-![01](screenshots/01-entra-overview.png)
-
-### 2. Create User Form
-![02](screenshots/02-create-user-form.png)
-
-### 3. User Created
-![03](screenshots/03-user-created-list.png)
-
-### 4. Create Group
-![04](screenshots/04-create-group-form.png)
-
-### 5. Group Membership
-![05](screenshots/05-group-member-added.png)
-
-### 6. RBAC Role Assignment
-![06](screenshots/06-rbac-role-assigned.png)
-
-### 7. Multiple Roles Assigned
-![07](screenshots/07-multiple-roles-assigned.png)
-
-### 8. MFA Setup
-![08](screenshots/08-mfa-setup.png)
-
-### 9. User Login Success
-![09](screenshots/09-user-login-success.png)
-
-### 10. Enterprise App Creation
-![10](screenshots/10-create-enterprise-app-form.png)
-
-### 11. Enterprise App Overview
-![11](screenshots/11-enterprise-app-overview.png)
-
-### 12. App User Assignment
-![12](screenshots/12-app-user-assigned.png)
-
-### 13. My Apps Validation
-![13](screenshots/13-myapps-visible-app.png)
 
 ---
 
