@@ -29,7 +29,7 @@ The objective was to build a hands-on lab environment to practice user provision
 ## Screenshots
 
 ### 1. Entra Overview
-[Ver Screenshot](https://github.com/xoxpto/azure-entra-id-user-access-lab/main/screenshots/01-entra-overview.png)
+[Ver Screenshot]([https://github.com/xoxpto/azure-entra-id-user-access-lab/main/screenshots/01-entra-overview.png](https://github.com/xoxpto/azure-entra-id-user-access-lab/blob/main/Screenshots/01-entra-overview.png))
 
 ### 2. Create User Form
 [Ver Screenshot](https://github.com/xoxpto/azure-entra-id-user-access-lab/main/screenshots/02-create-user-form.png)
