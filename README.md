@@ -1,68 +1,79 @@
 # Azure Entra ID User Access Lab
 
 ## Overview
-This project simulates a real-world Identity and Access Management scenario using Microsoft Entra ID. The goal was to build a small lab environment to practice user provisioning, group-based organization, role assignment, MFA onboarding, and enterprise application access control.
+This project simulates a real-world Identity and Access Management (IAM) scenario using Microsoft Entra ID.
+
+The objective was to build a hands-on lab environment to practice user provisioning, role-based access control (RBAC), MFA onboarding, and enterprise application access management.
+
+---
 
 ## Objectives
-- Create and manage users in Microsoft Entra ID
-- Create and manage security groups
-- Assign administrative roles using RBAC
-- Configure and validate MFA onboarding
-- Create an enterprise application
-- Assign access to the application
-- Validate user access through the My Apps portal
+- Create and manage users in Microsoft Entra ID  
+- Create and manage security groups  
+- Assign administrative roles using RBAC  
+- Configure and validate MFA onboarding  
+- Create an enterprise application  
+- Assign user access to the application  
+- Validate user access through the My Apps portal  
+
+---
 
 ## Environment
-- Microsoft Azure
-- Microsoft Entra ID (Free)
-- Enterprise Applications
-- My Apps portal
+- Microsoft Azure  
+- Microsoft Entra ID (Free Tier)  
+- Enterprise Applications  
+- My Apps Portal  
 
-## Tasks Completed
+---
 
-### 1. Entra ID environment validation
-Confirmed tenant access and reviewed the Microsoft Entra ID overview page.
+## Tasks Performed
 
-### 2. User creation
-Created a new user account:
-- Display name: João Silva
-- Username: `joao.silva@...onmicrosoft.com`
+### 1. Entra ID Environment Validation
+Validated tenant access and reviewed the Microsoft Entra ID dashboard.
 
-### 3. Group creation
+### 2. User Provisioning
+Created a new user:
+- **Name:** João Silva  
+- **Username:** `joao.silva@...onmicrosoft.com`  
+
+### 3. Group Management
 Created a security group:
-- Group name: `IT-Team`
+- **Name:** `IT-Team`  
 
-### 4. Group membership
-Added João Silva to the IT-Team security group.
+Added the user to the group.
 
-### 5. RBAC configuration
-Assigned the following administrative roles to João Silva:
-- User Administrator
-- Security Administrator
+### 4. RBAC Configuration
+Assigned administrative roles:
+- User Administrator  
+- Security Administrator  
 
-### 6. MFA onboarding
-Logged in with the new user and completed the initial MFA/security setup process.
+### 5. MFA Onboarding
+Configured and validated Multi-Factor Authentication (MFA) for the user.
 
-### 7. Enterprise application creation
+### 6. Enterprise Application Setup
 Created a non-gallery enterprise application:
-- App name: `App-Interna-IT`
+- **App Name:** `App-Interna-IT`  
 
-### 8. Application access assignment
-Due to Microsoft Entra ID Free plan limitations, group-based assignment to the enterprise application was not available. As a workaround, direct user assignment was used.
+### 7. Access Assignment
+Due to Microsoft Entra ID Free limitations, group-based assignment was not available.
 
-Assigned:
-- João Silva → App-Interna-IT
+Workaround implemented:
+- Direct user assignment to the application  
 
-### 9. Access validation
-Validated that the assigned application appeared in the My Apps portal when logged in as João Silva.
+### 8. Access Validation
+Confirmed that the application appears in the **My Apps portal** for the assigned user.
+
+---
 
 ## Key Learnings
-- How Microsoft Entra ID handles user and role management
-- How RBAC is applied in real IAM scenarios
-- How MFA onboarding works for new users
-- How enterprise applications are created and assigned
-- How licensing limitations in Microsoft Entra ID Free affect group-based assignment
-- How to adapt using direct user assignment when required
+- Identity lifecycle management in Microsoft Entra ID  
+- Practical use of RBAC in cloud environments  
+- MFA onboarding process and security implications  
+- Enterprise application integration and assignment  
+- Limitations of Entra ID Free tier  
+- Workarounds using direct user assignment  
+
+---
 
 ## Screenshots
 
@@ -93,7 +104,7 @@ Validated that the assigned application appeared in the My Apps portal when logg
 ### 9. User Login Success
 ![09](screenshots/09-user-login-success.png)
 
-### 10. Enterprise App Creation Form
+### 10. Enterprise App Creation
 ![10](screenshots/10-create-enterprise-app-form.png)
 
 ### 11. Enterprise App Overview
@@ -105,5 +116,9 @@ Validated that the assigned application appeared in the My Apps portal when logg
 ### 13. My Apps Validation
 ![13](screenshots/13-myapps-visible-app.png)
 
+---
+
 ## Notes
-This lab was created for learning and portfolio purposes. Some configuration decisions were adapted to the Microsoft Entra ID Free plan limitations.
+This project was developed for learning and portfolio purposes.
+
+Some design decisions were influenced by the limitations of the Microsoft Entra ID Free tier.
