@@ -67,13 +67,13 @@ Validated that the assigned application appeared in the My Apps portal when logg
 ## Screenshots
 
 ### 1. Entra Overview
-![01](./screenshots/01-entra-overview.png)
+[![01](https://github.com/xoxpto/azure-entra-id-user-access-lab/blob/main/screenshots/01-entra-overview.png?raw=true)](https://github.com/xoxpto/azure-entra-id-user-access-lab/blob/main/screenshots/01-entra-overview.png)
 
 ### 2. Create User Form
-![02](./screenshots/02-create-user-form.png)
+[![02](https://github.com/xoxpto/azure-entra-id-user-access-lab/blob/main/screenshots/02-create-user-form.png?raw=true)](https://github.com/xoxpto/azure-entra-id-user-access-lab/blob/main/screenshots/02-create-user-form.png)
 
 ### 3. User Created
-![03](./screenshots/03-user-created-list.png)
+[![03](https://github.com/xoxpto/azure-entra-id-user-access-lab/blob/main/screenshots/03-user-created-list.png?raw=true)](https://github.com/xoxpto/azure-entra-id-user-access-lab/blob/main/screenshots/03-user-created-list.png)
 
 ### 4. Create Group
 ![04](./screenshots/04-create-group-form.png)
