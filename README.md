@@ -26,44 +26,46 @@ The objective was to build a hands-on lab environment to practice user provision
 
 ---
 
-## Tasks Performed
+## Screenshots
 
-### 1. Entra ID Environment Validation
-Validated tenant access and reviewed the Microsoft Entra ID dashboard.
+### 1. Entra Overview
+[Ver Screenshot](https://github.com/xoxpto/azure-entra-id-user-access-lab/blob/main/screenshots/01-entra-overview.png)
 
-### 2. User Provisioning
-Created a new user:
-- **Name:** João Silva  
-- **Username:** `joao.silva@...onmicrosoft.com`  
+### 2. Create User Form
+[Ver Screenshot](https://github.com/xoxpto/azure-entra-id-user-access-lab/blob/main/screenshots/02-create-user-form.png)
 
-### 3. Group Management
-Created a security group:
-- **Name:** `IT-Team`  
+### 3. User Created
+[Ver Screenshot](https://github.com/xoxpto/azure-entra-id-user-access-lab/blob/main/screenshots/03-user-created-list.png)
 
-Added the user to the group.
+### 4. Create Group
+[Ver Screenshot](https://github.com/xoxpto/azure-entra-id-user-access-lab/blob/main/screenshots/04-create-group-form.png)
 
-### 4. RBAC Configuration
-Assigned administrative roles:
-- User Administrator  
-- Security Administrator  
+### 5. Group Membership
+[Ver Screenshot](https://github.com/xoxpto/azure-entra-id-user-access-lab/blob/main/screenshots/05-group-member-added.png)
 
-### 5. MFA Onboarding
-Configured and validated Multi-Factor Authentication (MFA) for the user.
+### 6. RBAC Role Assignment
+[Ver Screenshot](https://github.com/xoxpto/azure-entra-id-user-access-lab/blob/main/screenshots/06-rbac-role-assigned.png)
 
-### 6. Enterprise Application Setup
-Created a non-gallery enterprise application:
-- **App Name:** `App-Interna-IT`  
+### 7. Multiple Roles Assigned
+[Ver Screenshot](https://github.com/xoxpto/azure-entra-id-user-access-lab/blob/main/screenshots/07-multiple-roles-assigned.png)
 
-### 7. Access Assignment
-Due to Microsoft Entra ID Free limitations, group-based assignment was not available.
+### 8. MFA Setup
+[Ver Screenshot](https://github.com/xoxpto/azure-entra-id-user-access-lab/blob/main/screenshots/08-mfa-setup.png)
 
-Workaround implemented:
-- Direct user assignment to the application  
+### 9. User Login Success
+[Ver Screenshot](https://github.com/xoxpto/azure-entra-id-user-access-lab/blob/main/screenshots/09-user-login-success.png)
 
-### 8. Access Validation
-Confirmed that the application appears in the **My Apps portal** for the assigned user.
+### 10. Enterprise App Creation
+[Ver Screenshot](https://github.com/xoxpto/azure-entra-id-user-access-lab/blob/main/screenshots/10-create-enterprise-app-form.png)
 
----
+### 11. Enterprise App Overview
+[Ver Screenshot](https://github.com/xoxpto/azure-entra-id-user-access-lab/blob/main/screenshots/11-enterprise-app-overview.png)
+
+### 12. App User Assignment
+[Ver Screenshot](https://github.com/xoxpto/azure-entra-id-user-access-lab/blob/main/screenshots/12-app-user-assigned.png)
+
+### 13. My Apps Validation
+[Ver Screenshot](https://github.com/xoxpto/azure-entra-id-user-access-lab/blob/main/screenshots/13-myapps-visible-app.png)
 
 ## Key Learnings
 - Identity lifecycle management in Microsoft Entra ID  
