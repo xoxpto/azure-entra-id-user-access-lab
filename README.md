@@ -67,43 +67,43 @@ Validated that the assigned application appeared in the My Apps portal when logg
 ## Screenshots
 
 ### 1. Entra Overview
-![01](screenshots/01-entra-overview.png)
+![01](./screenshots/01-entra-overview.png)
 
 ### 2. Create User Form
-![02](screenshots/02-create-user-form.png)
+![02](./screenshots/02-create-user-form.png)
 
 ### 3. User Created
-![03](screenshots/03-user-created-list.png)
+![03](./screenshots/03-user-created-list.png)
 
 ### 4. Create Group
-![04](screenshots/04-create-group-form.png)
+![04](./screenshots/04-create-group-form.png)
 
 ### 5. Group Membership
-![05](screenshots/05-group-member-added.png)
+![05](./screenshots/05-group-member-added.png)
 
 ### 6. RBAC Role Assignment
-![06](screenshots/06-rbac-role-assigned.png)
+![06](./screenshots/06-rbac-role-assigned.png)
 
 ### 7. Multiple Roles Assigned
-![07](screenshots/07-multiple-roles-assigned.png)
+![07](./screenshots/07-multiple-roles-assigned.png)
 
 ### 8. MFA Setup
-![08](screenshots/08-mfa-setup.png)
+![08](./screenshots/08-mfa-setup.png)
 
 ### 9. User Login Success
-![09](screenshots/09-user-login-success.png)
+![09](./screenshots/09-user-login-success.png)
 
 ### 10. Enterprise App Creation Form
-![10](screenshots/10-create-enterprise-app-form.png)
+![10](./screenshots/10-create-enterprise-app-form.png)
 
 ### 11. Enterprise App Overview
-![11](screenshots/11-enterprise-app-overview.png)
+![11](./screenshots/11-enterprise-app-overview.png)
 
 ### 12. App User Assignment
-![12](screenshots/12-app-user-assigned.png)
+![12](./screenshots/12-app-user-assigned.png)
 
 ### 13. My Apps Validation
-![13](screenshots/13-myapps-visible-app.png)
+![13](./screenshots/13-myapps-visible-app.png)
 
 ## Notes
 This lab was created for learning and portfolio purposes. Some configuration decisions were adapted to the Microsoft Entra ID Free plan limitations.
